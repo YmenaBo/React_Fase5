@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Boton para iniciar cuestionario -->
+    <div class="start_btn"><button>Iniciar cuestionario</button></div>
+
+    <!-- Caja de informacion -->
+    <div class="info_box">
+        <div class="info-title"><span>Algunas reglas de este cuestionario</span></div>
+        <div class="info-list">
+            <div class="info">1. Tendras solo <span>15 segundos</span> para responder cada pregunta.</div>
+            <div class="info">2. Al seleccionar una respuesta no se puede deshacer.</div>
+            <div class="info">3. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div>
+            <div class="info">4. No puedes salir del cuestionario una vez iniciado.</div>
+            <div class="info">5. Obtendrá puntos en función de sus respuestas correctas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Cuestionario CSS Grid</div>
+            <div class="timer">
+                <div class="time_left_txt">Tiempo Restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Aqui se inserta pregunta proveniente de JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Aqui se inserta pregunta proveniente de JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer de caja de texto -->
+        <footer>
+            <div class="total_que">
+                <!-- Se inserta numero de recuento de preguntas de JavaScript -->
+            </div>
+            <button class="next_btn">Siguiente</button>
+        </footer>
+    </div>
+
+    <!-- Caja de resultados -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">¡Has completado el Cuestionario!</div>
+        <div class="score_text">
+            <!-- Se inserta Score Result de JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Reiniciar</button>
+            <button class="quit">Salir</button>
+        </div>
+    </div>
+
+    <!-- Barra Menu -->
+
+    <body> 
+        <div id="menu-container">
+            <link rel="stylesheet" href="../MenuDes/assets/css/styles.css">
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+            <script src="../MenuDes/assets/js/main.js"></script>
+            <script src="../MenuDes/assets/js/script.js"></script>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <a href="../index.html" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span class="nav__name">Home</span>
+                    </a>
+                    <a href="../Fase3/nosotros.html" class="nav__link">
+                        <i class="ri-team-fill"></i>
+                        <span class="nav__name">Nosotros</span>
+                    </a>
+                    <a href="../Fase3/Tema.html" class="nav__link">
+                        <i class="ri-book-open-line"></i>
+                        <span class="nav__name">Temas</span>
+                    </a>
+                    <a href="../index.html#mockup-grid" class="nav__link">
+                        <i class="ri-image-2-line"></i>
+                        <span class="nav__name">Mockup</span>
+                    </a>
+                    <a href="../Fase3/Audio.html" class="nav__link">
+                        <i class="ri-disc-line"></i>
+                        <span class="nav__name">Audios</span>
+                    </a>
+                    <a href="../index.html#acerca-grid" class="nav__link">
+                        <i class="ri-information-line"></i>
+                        <span class="nav__name">Acerca de</span>
+                    </a>
+                </ul>
+    
+                <div class="nav__circle-1"></div>
+                <div class="nav__circle-2"></div>
+    
+                <div class="nav__square-1"></div>
+                <div class="nav__square-2"></div>
+    
+            </nav>
+        </div>
+
+    <!-- Dentro de este archivo JavaScript estan insertadas las Preguntas y Opciones -->
+    <script src="js/questions.js"></script>
+
+    <!-- Dentro de este archivo JavaScript estan todos los códigos funcionales dentro del cuestionario -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Unad Diseno web Fase 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="menu-container"></div>
+  <!-- Encabezado y botones de navegacion y logo -->
+  <header>
+    <div class="header__superior">
+      <div class="logo">
+        <img src="Imagen/logo-unad.webp" alt="">
+      </div>
+      <div class="search">
+        <input type="search" placeholder="¿Cuál es tu consulta?">
+      </div>
+    </div>
+    <div class="container__menu">
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="../index.html" id="selected"></a></li>
+            <li><a href="Tema.html" class="">Temas</a>
+              <ul>
+                <li><a href="Tema.html#css-grid">Tema 1: CSS GRID</a></li>
+                <li><a href="Tema.html#tema">Tema 2</a></li>
+                <li><a href="Tema.html#tema">Tema 3</a></li>
+                <li><a href="Tema.html#tema">Tema 4</a></li>
+                <li><a href="Tema.html#tema">Tema 5</a></li>
+              </ul>
+            </li>
+            <li><a href="Audio.html" class="">Audios</a></li>
+            <li><a href="nosotros.html" class="">Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="menu-container">
+      <link rel="stylesheet" href="../MenuDes/assets/css/styles.css">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <nav class="nav">
+          <ul class="nav__list">
+              <a href="../index.html#mockup-grid" class="nav__link">
+                  <i class="ri-image-2-line"></i>
+                  <span class="nav__name">Mockup</span>
+              </a>
+              <a href="../Fase 4/index.html" class="nav__link">
+                  <i class="ri-file-text-line"></i>
+                  <span class="nav__name">Cuestionario</span>
+              </a>
+              <a href="../index.html#acerca-grid" class="nav__link">
+                <i class="ri-information-line"></i>
+                <span class="nav__name">Acerca de</span>
+               </a>
+          </ul>
+
+          <div class="nav__circle-1"></div>
+          <div class="nav__circle-2"></div>
+
+          <div class="nav__square-1"></div>
+          <div class="nav__square-2"></div>
+
+      </nav>
+  </div>
+  </header> 
+
+  <!-- Contenido principal/Pagina inicial -->
+  <main>
+    <article>
+      <h2>Diseño web - Fase 3 Diseñar</h2>
+      <p>Analizar los fundamentos y técnicas de HTML y CSS propuestas por los autores 
+        orientados al diseño de un producto web que se ajuste a las necesidades del 
+        contexto.</p>
+    </article>
+    <article>
+      <h2>Introducción</h2>
+      <p>La creación de sitios web es una tarea que implica el conocimiento y la aplicación de diversas herramientas, entre las cuales se destacan HTML y CSS. Ambos lenguajes de marcado y estilo, respectivamente, son la base fundamental para el diseño y desarrollo de una página web efectiva y atractiva.<br>
+        <br>Analizar los fundamentos y técnicas de HTML y CSS es esencial para comprender cómo funcionan estos lenguajes y cómo se pueden utilizar de manera eficiente para crear sitios web que satisfagan las necesidades del contexto. Los autores han propuesto diversas técnicas y buenas prácticas para el diseño de páginas web, desde la estructura básica hasta las técnicas más avanzadas de diseño y estilo.
+        En este sentido, el análisis de los fundamentos y técnicas de HTML y CSS permitirá a los diseñadores y desarrolladores web crear productos web que sean accesibles, usables, estéticamente atractivos y que cumplan con las expectativas de los usuarios.</p>
+    </article>
+  </main>
+ 
+  <!-- Contenido 5: Pie de pagina con Informacion de copyright -->
+  <footer>
+    <p>&copy; Ultima modificacion 08/Abril/2023 Universidad Nacional Abierta y a Distancia UNAD - Yeisson Mena Bogallo. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    function cargarMenu() {
+    var menuContainer = document.getElementById("menu-container");
+    var importedMenu = document.querySelector('link[rel="import"]').import;
+    var menu = importedMenu.querySelector("#menu-container").innerHTML;
+    menuContainer.innerHTML = menu;
+  }
+  </script>
+
+</body>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <title>Modern sidebar menu - Bedimcode</title>
+
+      
+</head>
+<body> 
+
+
+
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
