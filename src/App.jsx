@@ -26,7 +26,7 @@ function App() {
         <a href="index.html"> Ingresa al proyecto dando click aqui</a>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Universidad Nacional Abierta y a Distancia
       </p>
     </>
   )
