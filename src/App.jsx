@@ -23,7 +23,7 @@ function App() {
         <h4>Yeisson Mena Bogallo</h4>
 
         <h6>Enlace al proyecto</h6>
-        <a href="../public/inicio.html"> Ingresa al proyecto dando click aqui</a>
+        <a href="inicio.html"> Ingresa al proyecto dando click aqui</a>
       </div>
       <p className="read-the-docs">
         Universidad Nacional Abierta y a Distancia
